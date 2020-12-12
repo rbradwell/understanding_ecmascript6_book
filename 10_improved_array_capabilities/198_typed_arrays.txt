@@ -1,0 +1,9 @@
+special arrays to work with numerical types as prot of OpenGL ES2.0 port.
+provide bitwise arithmetic in javascript.
+native javascript numbers were too slow becuase sotre as 64bit and converted to 32 bits as needed.
+
+any single number can be treat as an array of bits.  Therefore can use array methods on it.
+
+standard javascript only uses 64 bits to represent floats or integers.
+
+typed arrays introduced int8, uint8, int16, uint16, int32, uint32, float32, float64 

@@ -1,0 +1,4 @@
+ES6 classes work with prototypical inheritance by defining nonstatic methods o the class prototype,
+whereas static methods are put on the constructor.
+All emthods are nonenumerable, which better matches the behaviour of built-in objects
+class constructos can't be called without new.
